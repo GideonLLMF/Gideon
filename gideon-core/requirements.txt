@@ -6,3 +6,4 @@ python-dotenv
 qdrant-client
 sentence-transformers
 redis
+sqlmodel
