@@ -1,0 +1,8 @@
+{
+    "name": "sample_agent",
+    "version": "0.0.1",
+    "capabilities": ["echo"],
+    "requires_permissions": [],
+    "endpoint": "http://localhost:8102",
+    "healthcheck": "/health"
+}
