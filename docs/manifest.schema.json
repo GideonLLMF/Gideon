@@ -1,0 +1,14 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Agent Manifest",
+    "type": "object",
+    "properties": {
+        "name": {"type": "string"},
+        "version": {"type": "string"},
+        "capabilities": {"type": "array", "items": {"type": "string"}},
+        "requires_permissions": {"type": "array", "items": {"type": "string"}},
+        "endpoint": {"type": "string", "format": "uri"},
+        "healthcheck": {"type": "string"}
+    },
+    "required": ["name","version","capabilities","endpoint"]
+}
